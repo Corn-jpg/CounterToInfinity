@@ -1,9 +1,9 @@
 let count = 0;
 
-function updateCounter() {
+function updateTimer() {
     count++;
-    document.getElementById('counter').innerText = count;
+    document.getElementById('timer').innerText = count;
 }
 
-// Update the counter every second (1000 milliseconds)
-setInterval(updateCounter, 1000);
+// Update the timer every second (1000 milliseconds)
+setInterval(updateTimer, 1000);
